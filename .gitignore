@@ -1,0 +1,57 @@
+# use glob syntax.
+syntax: glob
+*.ser
+*.class
+*~
+*.bak
+#*.off
+*.old
+
+# eclipse conf file
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
+
+# idea
+.idea
+*.iml
+
+# building
+target
+build
+null
+tmp*
+temp*
+dist
+test-output
+build.log
+
+# other scm
+.svn
+.CVS
+.hg*
+
+# switch to regexp syntax.
+#  syntax: regexp
+#  ^\.pc/
+
+#SHITTY output not in target directory
+build.log
+
+
+mnist_data
+InceptionV3_Data
+InceptionV3_Model
+bottleneck
+tfrecords
+__pycache__
+__init__.py
+CNN_NN_Conv2d_Mnist_Log
+FirstTry_Log
+InceptionV3Log
+Linear_Mnist_Log
+images
+output_graph.pb
+captchaimages
